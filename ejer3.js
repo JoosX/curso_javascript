@@ -6,7 +6,7 @@ let suma = 0   //para que de la suma total de los valores que si cumplen con la 
 let multiplos = []
 
 for(let i=1; i<N; i++){
-    if(i%3==0 || i%5==0){
+    if(i%3 ==0 || i%5 ==0){
         suma+=i;
         multiplos.push(i);
 
